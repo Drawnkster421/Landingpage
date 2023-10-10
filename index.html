@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi,I am <span class="purple">Abhi</span>
+                ,I am a Passionate <span class="orange">FULL STACK DEVELOPER</span></div>
+            <span id="element"></span>
+            <div class="rightSection">
+                <img src="d1.png" alt="">
+            </div>
+        </section>
+        
+        <section class="secondSection">
+            <h1>WORK,I CAN DO FOR YOU</h1>  
+        </section>
+        <section class="thirdSection">
+            <div class="card">
+                <img src="full-stack-development.gif" alt="Avatar" style="width:100%">
+                <h1>Web Development</h1>  
+                <div class="container">
+                  
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat atque vero consectetur sequi, sunt cupiditate nam voluptas rerum. Sunt dignissimos magnam incidunt blanditiis facilis unde architecto. Eaque provident consequuntur quo?</p>
+                </div>
+              </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
